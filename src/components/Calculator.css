@@ -1,0 +1,70 @@
+:root {
+  --primary: rgb(153, 152, 152);
+  --digit: #f5f5f5;
+  --operator: rgb(255, 144, 104);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.global {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: var(--primary);
+}
+
+.answer-span {
+  background-color: var(--primary);
+  text-align: right;
+  padding: 1.5rem;
+  color: var(--digit);
+}
+
+.box-one, .box-two, .box-three, .box-four {
+  display: flex;
+}
+.box-one button, .box-two button, .box-three button, .box-four button {
+  flex: 1 1 0%;
+  margin: 1px 1px 1px 0;
+  padding: 0.5rem;
+}
+
+.operator,
+.number,
+.empty {
+  border-width: 0;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+
+button {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  appearance: none;
+  margin-right: 1rem;
+  /* margin-right: 1rem; */
+  background: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.empty{
+  background-color: var(--digit)
+}
+
+.number{
+  background-color: var(--digit)
+}
+
+.operator{
+  background-color: var(--operator);
+  font-size: 30px;
+}
+
