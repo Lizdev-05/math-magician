@@ -24,15 +24,23 @@
   color: var(--digit);
 }
 
-.box-one, .box-two, .box-three, .box-four {
-  display: flex;
+.box-one, .box-two, .box-three, .box-four, .box-five {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 .box-one button, .box-two button, .box-three button, .box-four button {
-  flex: 1 1 0%;
   margin: 1px 1px 1px 0;
   padding: 0.5rem;
 }
 
+.zero{
+  grid-column: 1 / span 2;
+}
+
+.box-five button{
+  margin: 1px 1px 1px 0;
+  padding: 0.5rem;
+}
 .operator,
 .number,
 .empty {

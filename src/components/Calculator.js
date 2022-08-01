@@ -43,9 +43,8 @@ class Calculator extends Component {
           <button type="button" className="btn number">3</button>
           <button type="button" className="btn number operator">+</button>
         </div>
-        <div className="box-four">
-          <button type="button" className="btn  number">00</button>
-          <button type="button" className="btn number">0</button>
+        <div className="box-five">
+          <button type="button" className="btn number zero">0</button>
           <button type="button" className="btn number dot">.</button>
 
           <button type="button" className="btn number operator">=</button>
