@@ -4,16 +4,6 @@ import './Calculator.css';
 
 class Calculator extends Component {
   render() {
-    // const createDigits = () => {
-    //   const digits = [];
-
-    //   for (let i = 0; i < 10; i += 1) {
-    //     digits.push(
-    //       <button type="button" key={i}>{i}</button>,
-    //     );
-    //   }
-    //   return digits;
-    // };
 
     return (
       <div className="global">

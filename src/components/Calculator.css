@@ -24,23 +24,43 @@
   color: var(--digit);
 }
 
-.box-one, .box-two, .box-three, .box-four, .box-five {
+.box-one,
+.box-two,
+.box-three,
+.box-four,
+.box-five {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.box-one button, .box-two button, .box-three button, .box-four button {
+
+button {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  appearance: none;
+  margin-right: 1rem;
+  background: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.box-one button,
+.box-two button,
+.box-three button,
+.box-four button {
   margin: 1px 1px 1px 0;
   padding: 0.5rem;
 }
 
-.zero{
+.zero {
   grid-column: 1 / span 2;
 }
 
-.box-five button{
+.box-five button {
   margin: 1px 1px 1px 0;
   padding: 0.5rem;
 }
+
 .operator,
 .number,
 .empty {
@@ -50,29 +70,15 @@
   cursor: pointer;
 }
 
-
-button {
-  border: none;
-  outline: none;
-  font-size: 1rem;
-  appearance: none;
-  margin-right: 1rem;
-  /* margin-right: 1rem; */
-  background: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
+.empty {
+  background-color: var(--digit);
 }
 
-.empty{
-  background-color: var(--digit)
+.number {
+  background-color: var(--digit);
 }
 
-.number{
-  background-color: var(--digit)
-}
-
-.operator{
+.operator {
   background-color: var(--operator);
   font-size: 30px;
 }
-
