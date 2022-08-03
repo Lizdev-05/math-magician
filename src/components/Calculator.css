@@ -22,6 +22,8 @@
   text-align: right;
   padding: 1.5rem;
   color: var(--digit);
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .box-one,
