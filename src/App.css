@@ -10,3 +10,10 @@
   align-items: center;
   min-height: 100vh;
 }
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  
+}
