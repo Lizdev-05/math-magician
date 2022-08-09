@@ -3,10 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* 
 .App {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-}
+} */
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 4rem;
+  }
+
+  .navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    color: #2a2a2a;
+  }
+  .navbar a:hover {
+    color: rgb(255, 144, 104)
+  }
