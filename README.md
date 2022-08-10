@@ -88,13 +88,6 @@ Feel free to check the [issues page](../../issues/).
 
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/elizabeth-oyinlade-ojesanmi-0702aa16a)
 
-## Contributor
-👤 **Seth Bizimana**
-
-- GitHub: [@Github](https://github.com/Sevenpros)
-- Twitter: [@twitter](https://twitter.com/BizimanaSeth)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/seth-bizimana-2a0624189)
-
 ## Show your support
 
 Give a ⭐️ if you like this project!

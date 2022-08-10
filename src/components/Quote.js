@@ -19,9 +19,9 @@ const Quote = () => {
     getQuotes();
   }, [])
   
-  // useEffect(() => {
-  //     textRef.current.style.color = colors[Math.floor(Math.random() * colors.length)]
-  // }, [quotes])
+  useEffect(() => {
+      textRef.current.style.color = colors[Math.floor(Math.random() * colors.length)]
+  }, [quotes])
   return(
     <>
       <div className='quote'>
