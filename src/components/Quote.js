@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React, { useState, useEffect } from 'react';
+import './Quote.css'
 
 const Quote = () => {
   const [quotes, setQuotes] = useState('');
@@ -20,10 +21,11 @@ const Quote = () => {
     <>
       <div className='quote'>
       <p>{quotes.text}</p>
-      <p>{quotes.author}</p>
-    </div><div>
+      <p className='author'>{quotes.author}</p>
+    <div>
         <button className='btn' onClick={getQuotes}>Get Quotes</button>
-      </div>
+        </div>
+        </div>
     </>
   );
 }
