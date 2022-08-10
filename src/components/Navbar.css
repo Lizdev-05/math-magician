@@ -1,0 +1,27 @@
+.navbar{
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #d8d8d8;
+  }
+
+  .navbar a{
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    color: #d8d8d8;
+    list-style: none;
+  }
+  .navbar a:hover {
+    color: rgb(255, 144, 104)
+  }
+
+  .nav-items{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-items li {
+    list-style: none;
+  }
