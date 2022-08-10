@@ -3,14 +3,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #d8d8d8;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f2f2f2;
   }
 
   .navbar a{
     margin-left: 16px;
     text-decoration: none;
     padding: 6px;
-    color: #d8d8d8;
+    color: #f2f2f2;
     list-style: none;
   }
   .navbar a:hover {
@@ -24,4 +26,9 @@
 
   .nav-items li {
     list-style: none;
+  }
+ 
+ .navbar .active {
+    font-weight: 600;
+    border-bottom: 2px solid var(--orange);
   }
