@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="home-container"
+>
+  <h1>
+    Welcome to our page
+  </h1>
+  <p>
+    Mathematics is the science that deals with the logic of shape, quantity and arrangement. Mathematics plays a vital role in all aspects of life, whether in everyday matters such as time tracking, driving, cooking, or jobs such as accounting, finance, banking, engineering, and software.
+  </p>
+  <p>
+    Mathematics is the cradle of all creations, without which the world cannot move an inch. It makes our life orderly and prevents chaos. Certain qualities that are nurtured by mathematics are power of reasoning, creativity, abstact or spatial thinking, critical thinking and even effective communication.
+  </p>
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<div
+  className="quote"
+>
+  <p />
+  <p
+    className="author"
+  />
+  <div>
+    <button
+      className="btns quote-btn"
+      onClick={[Function]}
+    >
+      Get Quotes
+    </button>
+    <a
+      className="btns"
+      href="https://twitter.com/intent/tweet?text=undefined"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Tweet
+    </a>
+  </div>
+</div>
+`;
+
+exports[`renders correctly 3`] = `
+<div
+  className="global"
+>
+  <div
+    className="answer-span"
+    onChange={[Function]}
+  >
+    0
+  </div>
+  <div
+    className="box-one"
+  >
+    <button
+      className="btn delete number"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="btn  number number"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="btn clear number"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="btn  equal-to operator"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+  </div>
+  <div
+    className="box-two"
+  >
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="btn number operator"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+  </div>
+  <div
+    className="box-three"
+  >
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="btn number  operator"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+  </div>
+  <div
+    className="box-four"
+  >
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="btn number"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="btn number operator"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+  </div>
+  <div
+    className="box-five"
+  >
+    <button
+      className="btn number zero"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="btn number dot"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="btn number operator"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
