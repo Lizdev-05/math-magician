@@ -4,22 +4,22 @@
   box-sizing: border-box;
 }
 
-  body{
-    background: url(./images/mathematics.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-  }
+body {
+  background: url(./images/mathematics.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
 
-  .home-container p{
-    padding: 1rem 3rem;
-    font-size: 1.3rem;
-    color: #f2f2f2;
-  }
+.home-container p {
+  padding: 1rem 3rem;
+  font-size: 1.3rem;
+  color: #f2f2f2;
+}
 
-  .home-container h1{
-    font-size: 2rem;
-    font-weight: bold;
-    color: #f2f2f2;
-    padding: 0.5rem 3rem;
-  }
+.home-container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f2f2f2;
+  padding: 0.5rem 3rem;
+}
