@@ -11,8 +11,6 @@ const Quote = () => {
     fetch('https://random-math-quote-api.herokuapp.com/')
     .then((res) => res.json())
   .then((data) => {
-  //  let randomNum = Math.floor(Math.random() * data.length)
-  //   setQuotes(data[randomNum]);
     setQuotes(data)
   });
   };
