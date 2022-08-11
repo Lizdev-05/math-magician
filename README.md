@@ -5,16 +5,20 @@
 "Math-Magician" is a web app for all lovers of mathematics. It is a Single Page Application (SPA) that allows users to make simple calculations, generate and read random math-related quotes and also tweet the quote.
 
 Our goal here is to Build a single page web application for mathematics weebs using the React library 
-
+![](./src/images/math2.PNG)
+![](./src/images/math3.PNG)
+![](./src/images/math.PNG)
 
 ### Features implemented so far are:
 
 - Project Setup with React Installations
+
 ## Built With
 
 - React 
 - Linters
 ## Live Demo
+[Live demo](https://lizdev-math-magician.netlify.app)
 
 
 ### Prerequisites
